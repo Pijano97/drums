@@ -1,0 +1,23 @@
+.drums {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	flex: 1;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.drums__title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: orange;
+}
+
+.drums__char {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+}
