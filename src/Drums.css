@@ -1,0 +1,10 @@
+.drums {
+	display: flex;
+	flex: 0.9;
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.drums__active {
+	transform: scale(1.5);
+}

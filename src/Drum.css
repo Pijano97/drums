@@ -1,12 +1,12 @@
-.drums {
+.drum {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid black;
-	flex: 1;
+	border: 2px solid black;
+	flex: 0.9;
 	background: rgba(0, 0, 0, 0.1);
 }
 
-.drums__title {
+.drum__title {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -15,7 +15,8 @@
 	color: orange;
 }
 
-.drums__char {
+.drum__char {
+	color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
